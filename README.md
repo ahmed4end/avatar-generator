@@ -1,6 +1,6 @@
 ## Getting Started
 ### Requirements
-Weaver requires the following:
+requires the following:
 * An installation of [Python](https://www.python.org/downloads/) >= 3.5
 * The Python Image Library (PIL)
 ### Usage

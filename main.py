@@ -29,15 +29,8 @@ class avatar:
 		'''
 			generate 5x5 random grid.
 		'''
-		while True:
-			edge = [
-				random.choices(range(2),k=5),
-				random.choices(range(2),k=5)
-			]
-			middle = random.choices(range(2),k=5)
-			if True:
-				break
-		grid = list(zip(*edge, middle, *edge[::-1]))
+		rand = random.choices(range(2),k=15)		
+		grid = list(zip(rand[:5], rand[5:10], rand[10:], rand[5:10], rand[:5]))
 		return grid
 
 	def genColor(self):
